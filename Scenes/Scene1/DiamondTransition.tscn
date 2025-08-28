@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://bpibpeyy68jep"]
+
+[ext_resource type="Script" uid="uid://b4bfy2r8awkun" path="res://Scenes/Scene1/DiamondTransition.cs" id="1_0ter7"]
+[ext_resource type="Shader" uid="uid://ck3n4q5vpl4td" path="res://Scenes/Scene1/transition_2.gdshader" id="2_0ter7"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_0ter7"]
+shader = ExtResource("2_0ter7")
+shader_parameter/progress = 0.0
+shader_parameter/is_reverse = true
+shader_parameter/num_of_tiles = Vector2(16, 9)
+
+[node name="DiamondTransition" type="CanvasLayer"]
+script = ExtResource("1_0ter7")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_0ter7")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.253414, 0.238883, 0.60259, 1)

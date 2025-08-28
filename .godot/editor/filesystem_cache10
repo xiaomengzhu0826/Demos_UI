@@ -1,0 +1,12 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1756310046
+icon.svg::CompressedTexture2D/CompressedTexture2D::1289638875738201487::1756057753::1756057757::1::::<><><>0<>0<>ca20503293475a887f535cb2b6658d62<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://Scenes/::1756058094
+::res://Scenes/Global/::1756309788
+AssetsManager.cs::CSharpScript/CSharpScript::3654044021146849895::1756059770::0::1::::<>Node<><>0<>0<><>::
+Manager.tscn::PackedScene::7966153263585952510::1756309788::0::1::::<><><>0<>0<><>::uid://bscbtojdng1r4::::res://Scenes/Global/AssetsManager.cs
+::res://Scenes/Scene1/::1756309788
+DiamondTransition.cs::CSharpScript/CSharpScript::4424309416860024685::1756059771::0::1::::<>CanvasLayer<><>0<>0<><>::
+DiamondTransition.tscn::PackedScene::3455856112499295667::1756309788::0::1::::<><><>0<>0<><>::uid://b4bfy2r8awkun::::res://Scenes/Scene1/DiamondTransition.cs<>uid://ck3n4q5vpl4td::::res://Scenes/Scene1/transition_2.gdshader
+transition_1.gdshader::Shader/Shader::5536326794185850060::1756057801::0::1::::<><><>0<>0<><>::
+transition_2.gdshader::Shader/Shader::5533374377501795941::1756057801::0::1::::<><><>0<>0<><>::

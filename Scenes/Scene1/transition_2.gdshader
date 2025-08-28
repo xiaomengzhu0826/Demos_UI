@@ -1,0 +1,27 @@
+shader_type canvas_item;
+
+uniform float progress:hint_range(0.0, 1.0);
+uniform bool is_reverse = true;
+uniform vec2 num_of_tiles=vec2(16,9);
+
+void fragment() {
+	vec2 point_in_square=num_of_tiles*UV;
+	vec2 frac=fract(point_in_square);
+	vec2 dis=abs(frac-0.5);
+	float manhattan=dis.x+dis.y;
+	
+	if(is_reverse)
+	{
+		if(manhattan+UV.x+UV.y<= progress*3.0)
+		{
+			discard;
+		}
+	}else
+	{
+		if(manhattan+UV.x+UV.y>= progress*3.0)
+		{
+			discard;
+		}
+	}
+}
+

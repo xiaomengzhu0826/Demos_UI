@@ -1,0 +1,17 @@
+D:\Godot\GodotProjects\Demos_UI\.godot\mono\temp\bin\Debug\Demos_UI.deps.json
+D:\Godot\GodotProjects\Demos_UI\.godot\mono\temp\bin\Debug\Demos_UI.runtimeconfig.json
+D:\Godot\GodotProjects\Demos_UI\.godot\mono\temp\bin\Debug\Demos_UI.dll
+D:\Godot\GodotProjects\Demos_UI\.godot\mono\temp\bin\Debug\Demos_UI.pdb
+D:\Godot\GodotProjects\Demos_UI\.godot\mono\temp\bin\Debug\GodotSharp.dll
+D:\Godot\GodotProjects\Demos_UI\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+D:\Godot\GodotProjects\Demos_UI\.godot\mono\temp\obj\Debug\Demos_UI.csproj.AssemblyReference.cache
+D:\Godot\GodotProjects\Demos_UI\.godot\mono\temp\obj\Debug\Demos_UI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Godot\GodotProjects\Demos_UI\.godot\mono\temp\obj\Debug\Demos_UI.AssemblyInfoInputs.cache
+D:\Godot\GodotProjects\Demos_UI\.godot\mono\temp\obj\Debug\Demos_UI.AssemblyInfo.cs
+D:\Godot\GodotProjects\Demos_UI\.godot\mono\temp\obj\Debug\Demos_UI.csproj.CoreCompileInputs.cache
+D:\Godot\GodotProjects\Demos_UI\.godot\mono\temp\obj\Debug\Demos_UI.csproj.Up2Date
+D:\Godot\GodotProjects\Demos_UI\.godot\mono\temp\obj\Debug\Demos_UI.dll
+D:\Godot\GodotProjects\Demos_UI\.godot\mono\temp\obj\Debug\refint\Demos_UI.dll
+D:\Godot\GodotProjects\Demos_UI\.godot\mono\temp\obj\Debug\Demos_UI.pdb
+D:\Godot\GodotProjects\Demos_UI\.godot\mono\temp\obj\Debug\Demos_UI.genruntimeconfig.cache
+D:\Godot\GodotProjects\Demos_UI\.godot\mono\temp\obj\Debug\ref\Demos_UI.dll
