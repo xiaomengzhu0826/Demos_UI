@@ -1,2 +1,14 @@
+res://Scenes/Scattering/scattering_2D.gdshader
+res://Scenes/Scattering/scattering3d.gdshader
+res://Scenes/ShaderArtCoding/ShaderArtCoding.gdshader
+res://Scenes/Octagrams/Octagrams.gdshader
+res://Scenes/VeryFastProceduralOcean/VeryFastProceduralOcean.tscn
+res://Scenes/VeryFastProceduralOcean/very_fast_procedural_ocean.gdshader
 res://Scenes/Global/Manager.tscn
-res://Scenes/Scene1/DiamondTransition.tscn
+res://Scenes/Scattering/Scattering2D.tscn
+res://Scenes/Scattering/Scattering3d.tscn
+res://Scenes/ShaderArtCoding/ShaderArtCoding.cs
+res://Scenes/VeryFastProceduralOcean/VeryFastProceduralOcean.cs
+res://Scenes/ShaderArtCoding/ShaderArtCoding.tscn
+res://Scenes/DiamondTransition/DiamondTransition.cs
+res://Scenes/Global/AssetsManager.cs

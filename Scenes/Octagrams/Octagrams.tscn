@@ -1,0 +1,12 @@
+[gd_scene load_steps=4 format=3 uid="uid://ctuqlur2x1ae6"]
+
+[ext_resource type="PackedScene" uid="uid://f0212yrqtra5" path="res://Scenes/Global/BaseScene1.tscn" id="1_blanf"]
+[ext_resource type="Shader" uid="uid://b0axl8trcs1nw" path="res://Scenes/Octagrams/Octagrams.gdshader" id="2_kd54w"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_yrkbq"]
+shader = ExtResource("2_kd54w")
+
+[node name="Octagrams" instance=ExtResource("1_blanf")]
+
+[node name="ColorRect" parent="CanvasLayer" index="0"]
+material = SubResource("ShaderMaterial_yrkbq")

@@ -15,8 +15,8 @@ public partial class AssetsManager : Node
 
     public static readonly Dictionary<Scene1, Shader> SCENE1_PREFABS = new()
     {
-        {Scene1.SHADER_1,GD.Load<Shader>("res://Scenes/Scene1/transition_1.gdshader")},
-        {Scene1.SHADER_2,GD.Load<Shader>("res://Scenes/Scene1/transition_2.gdshader")},
+        {Scene1.SHADER_1,GD.Load<Shader>("res://Scenes/DiamondTransition/transition_1.gdshader")},
+        {Scene1.SHADER_2,GD.Load<Shader>("uid://ck3n4q5vpl4td")},
     };
     
     public override void _Ready()

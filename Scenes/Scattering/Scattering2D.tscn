@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3 uid="uid://bduy0b4gonldg"]
+
+[ext_resource type="PackedScene" uid="uid://f0212yrqtra5" path="res://Scenes/Global/BaseScene1.tscn" id="1_o1pxh"]
+[ext_resource type="Shader" uid="uid://cmv5pkyg60en3" path="res://Scenes/Scattering/scattering_2D.gdshader" id="2_8rbc8"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_e0kt6"]
+shader = ExtResource("2_8rbc8")
+shader_parameter/scale = 1.0
+
+[node name="Scattering2D" instance=ExtResource("1_o1pxh")]
+
+[node name="ColorRect" parent="CanvasLayer" index="0"]
+material = SubResource("ShaderMaterial_e0kt6")

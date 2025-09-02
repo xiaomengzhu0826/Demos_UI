@@ -1,0 +1,17 @@
+[gd_scene load_steps=5 format=3 uid="uid://cn0ye88futfns"]
+
+[ext_resource type="PackedScene" uid="uid://f0212yrqtra5" path="res://Scenes/Global/BaseScene1.tscn" id="1_dkjir"]
+[ext_resource type="Shader" uid="uid://rusxylm37ar7" path="res://Scenes/ShaderArtCoding/ShaderArtCoding.gdshader" id="2_er3sv"]
+[ext_resource type="Script" uid="uid://jco3ll00iliq" path="res://Scenes/ShaderArtCoding/ShaderArtCoding.cs" id="2_f8sow"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_f8sow"]
+shader = ExtResource("2_er3sv")
+shader_parameter/iTime = 0.0
+shader_parameter/iResolution = Vector2(1920, 1080)
+
+[node name="ShaderArtCoding" instance=ExtResource("1_dkjir")]
+script = ExtResource("2_f8sow")
+
+[node name="ColorRect" parent="CanvasLayer" index="0"]
+unique_name_in_owner = true
+material = SubResource("ShaderMaterial_f8sow")

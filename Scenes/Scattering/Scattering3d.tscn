@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3 uid="uid://bsanhn1m84mks"]
+
+[ext_resource type="PackedScene" uid="uid://dlfdj3jopd4x0" path="res://Scenes/Global/BaseScene3d.tscn" id="1_adeph"]
+[ext_resource type="Shader" uid="uid://5e0y4t56phg1" path="res://Scenes/Scattering/scattering3d.gdshader" id="2_knso8"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_sdv1h"]
+render_priority = 0
+shader = ExtResource("2_knso8")
+
+[node name="Scattering3D" instance=ExtResource("1_adeph")]
+
+[node name="MeshInstance3D" parent="." index="0"]
+surface_material_override/0 = SubResource("ShaderMaterial_sdv1h")

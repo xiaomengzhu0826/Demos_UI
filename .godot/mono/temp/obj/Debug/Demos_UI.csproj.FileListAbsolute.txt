@@ -15,3 +15,4 @@ D:\Godot\GodotProjects\Demos_UI\.godot\mono\temp\obj\Debug\refint\Demos_UI.dll
 D:\Godot\GodotProjects\Demos_UI\.godot\mono\temp\obj\Debug\Demos_UI.pdb
 D:\Godot\GodotProjects\Demos_UI\.godot\mono\temp\obj\Debug\Demos_UI.genruntimeconfig.cache
 D:\Godot\GodotProjects\Demos_UI\.godot\mono\temp\obj\Debug\ref\Demos_UI.dll
+D:\Godot\GodotProjects\Demos_UI\.godot\mono\temp\obj\Debug\Demos_UI.sourcelink.json

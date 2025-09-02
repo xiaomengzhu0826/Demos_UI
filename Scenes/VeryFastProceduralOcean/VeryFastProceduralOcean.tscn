@@ -1,0 +1,18 @@
+[gd_scene load_steps=5 format=3 uid="uid://ca8o47wm1l25j"]
+
+[ext_resource type="PackedScene" uid="uid://f0212yrqtra5" path="res://Scenes/Global/BaseScene1.tscn" id="1_toipe"]
+[ext_resource type="Shader" uid="uid://bkhq3nh2e0dfw" path="res://Scenes/VeryFastProceduralOcean/very_fast_procedural_ocean.gdshader" id="2_g6tcd"]
+[ext_resource type="Script" uid="uid://cv1ocrf6jftvw" path="res://Scenes/VeryFastProceduralOcean/VeryFastProceduralOcean.cs" id="2_yqdfa"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_yqdfa"]
+shader = ExtResource("2_g6tcd")
+shader_parameter/RES = Vector2(1920, 1080)
+shader_parameter/SUN_SPEED = 0.2
+shader_parameter/SUN_PHASE = 2.6
+
+[node name="VeryFastProceduralOcean" instance=ExtResource("1_toipe")]
+script = ExtResource("2_yqdfa")
+
+[node name="ColorRect" parent="CanvasLayer" index="0"]
+unique_name_in_owner = true
+material = SubResource("ShaderMaterial_yqdfa")

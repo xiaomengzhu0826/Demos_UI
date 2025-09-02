@@ -1,0 +1,12 @@
+[gd_scene load_steps=4 format=3 uid="uid://dctpa541nesh3"]
+
+[ext_resource type="PackedScene" uid="uid://f0212yrqtra5" path="res://Scenes/Global/BaseScene1.tscn" id="1_44p28"]
+[ext_resource type="Shader" uid="uid://bpwfyk5jsoumf" path="res://Scenes/GlowingMountainLines/Glowing_mountain_lines.gdshader" id="2_h7mtr"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_w22bn"]
+shader = ExtResource("2_h7mtr")
+
+[node name="GlowingMountainLines" instance=ExtResource("1_44p28")]
+
+[node name="ColorRect" parent="CanvasLayer" index="0"]
+material = SubResource("ShaderMaterial_w22bn")
